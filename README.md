@@ -1,4 +1,15 @@
 # aws-code
+Resources it will create ask to create
+Setup VPC with 2 public and 2 private subnets with NatGateway for internet connectivity in private subnets. 
+Create RDS DB in private subnets with the same VPC.
+Create Load Balancer and Autoscalling group. [Note: Autoscalling must be in Private subnets and LB in Public Subnets.]
+S3 bucket in the same region
+Use Route53 for DNS service and map it with LB
+Create an Instance profile that has to be attached to the EC Instance. Instance profile should be have permission to access rDS, DynamoDB, S3 bucket
+Lambda function to trigger the when object is uploaded in s3
+SnS topic for lambda and user email id subscription. 
+
+
 # For Linux use:
 
           sudo yum update -y
