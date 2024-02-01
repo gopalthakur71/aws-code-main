@@ -22,6 +22,13 @@ Below is the application Logic and Application Architecture.
 
 ![image](https://github.com/gopalthakur71/aws-code-main/assets/93305508/32b51dff-f443-4f5c-b7c4-42dac1aaf9e8)
 
+Use this code to create table in the database.
+CREATE TABLE employee (emp_id VARCHAR (20), first_name VARCHAR (20), last_name VARCHAR (20), primary_skills VARCHAR (20), location VARCHAR (20));
+
+describe table
+
+select * from employee
+
 # For Linux use:
 
           sudo yum update -y
