@@ -16,9 +16,11 @@ Create an Instance profile that has to be attached to the EC Instance. Instance 
 Lambda function to trigger the when object is uploaded in s3.
 
 SnS topic for lambda and user email id subscription. 
+Below is the application Logic and Application Architecture.
 
 ![image](https://github.com/gopalthakur71/aws-code-main/assets/93305508/f169a2f4-6778-406f-9d8a-4d68c8000489)
 
+![image](https://github.com/gopalthakur71/aws-code-main/assets/93305508/32b51dff-f443-4f5c-b7c4-42dac1aaf9e8)
 
 # For Linux use:
 
